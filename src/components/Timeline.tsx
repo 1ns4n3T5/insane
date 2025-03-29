@@ -10,56 +10,55 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Education & Career History</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2024 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">System Engineer | SOC Analsyt</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cyber Wings, Yangon</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+             Sysadmin, Linux, Virtualization, Networking, SOC L1
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">SOC Analyst Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cyber Wings, Yangon</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+             24/7 monitoring, Incident Report, Threat Detection, Vulnerability Assessment
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Incident Response Team</h3>
+            <h4 className="vertical-timeline-element-subtitle">UCSY-CSR Lab</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
+            I contribute to cybersecurity research by developing CTF challenges for UCSY competitions.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2018 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">University of Computer studies Yangon</h3>
+            <h4 className="vertical-timeline-element-subtitle">Shwe Pyi Thar, Yangon</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Bachelor of Computer Sceince (BCSC)
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

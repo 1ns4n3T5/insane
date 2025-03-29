@@ -17,15 +17,22 @@
     background-color: #5000ca;
     color: white;
   }
-
-  fieldset {
-    background-color: white;
-  }
 }
 
+// ✅ Fixes fieldset issue (keeps background white and text visible)
+.MuiOutlinedInput-root {
+  background-color: white; 
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #bbb !important;
+}
+
+// ✅ Label color changed to black
 label {
   font-size: 1.2rem;
   font-family: 'DomaineDispNar-Medium', sans-serif;
+  color: rgb(83, 90, 86) !important;
 }
 
 .form-flex {
